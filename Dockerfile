@@ -1,13 +1,13 @@
 # syntax=docker/dockerfile:1.4
 FROM python:3.10-alpine AS builder
+LABEL authors="AgniaEndie"
+WORKDIR /FoxStudios-PyBid
 
-WORKDIR /NeuroServicePython
-
-COPY requirements.txt /NeuroServicePython
+COPY requirements.txt /FoxStudios-PyBid
 #RUN --mount=type=cache,target=/root/.cache/pip \
 #    pip3 install -r requirements.txt
 RUN pip3 install -r requirements.txt
-COPY . /NeuroServicePython
+COPY . /FoxStudios-PyBid
 
 ENTRYPOINT ["python3"]
 CMD ["app.py"]
