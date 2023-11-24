@@ -12,3 +12,4 @@
 Docker - программное обеспечение, используемое для контейнеризации.
 Python - язык программирования, содержащий огромное количество различных библиотек, включая те, которые подходят для написания нейронной сети.
 Tensorflow - открытая программная библиотека для машинного обучения, разработанная компанией Google для решения задач построения и тренировки нейронной сети.
+[<img src="https://run.pstmn.io/button.svg" alt="Run In Postman" style="width: 128px; height: 32px;">](https://app.getpostman.com/run-collection/19801253-f3875c89-1626-4e75-8425-ea10bad63f60?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D19801253-f3875c89-1626-4e75-8425-ea10bad63f60%26entityType%3Dcollection%26workspaceId%3D3e6678f6-204a-4baf-bc53-c3cbefff3934)
