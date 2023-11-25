@@ -20,7 +20,10 @@ app = Flask(__name__)
 
 @app.route("/test", methods=["GET"])
 def test():
-    print("zalupa")
+    return "test"
+
+@app.route("/predict", methods=["POST"])
+def test():
     return "test"
 
 
